@@ -44,7 +44,6 @@ ROMX $06
 ROMX $07
 	"Roofs"
 	"Tileset Data 2"
-	"Extra Songs 1"
 ROMX $08
 	"Clock Reset"
 	"Tileset Data 3"
@@ -183,7 +182,8 @@ ROMX $42
 ROMX $43
 	"Title"
 ROMX $44
-	"Mobile Adapter SDK"
+;	"Mobile Adapter SDK"
+	"Extra Songs 1"
 ROMX $45
 	"Mobile Adapter SDK Mail"
 	"mobile45"

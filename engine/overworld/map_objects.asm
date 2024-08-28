@@ -2430,7 +2430,6 @@ CheckObjectCoveredByTextbox:
 .ok9
 	dec e
 	jr nz, .loop
-
 	and a
 	ret
 
