@@ -451,3 +451,17 @@ INCBIN "data/tilesets/omanyte_word_room_attributes.bin"
 
 TilesetAerodactylWordRoomAttr::
 INCBIN "data/tilesets/aerodactyl_word_room_attributes.bin"
+
+SECTION "Tileset Data 12", ROMX
+
+TilesetKagawaGFX::
+INCBIN "gfx/tilesets/kagawa.2bpp.lz"
+
+TilesetKagawaMeta::
+INCBIN "data/tilesets/kagawa_metatiles.bin"
+
+TilesetKagawaColl::
+INCLUDE "data/tilesets/kagawa_collision.asm"
+
+TilesetKagawaAttr::
+INCBIN "data/tilesets/kagawa_attributes.bin"

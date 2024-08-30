@@ -30,6 +30,7 @@ OutdoorSprites:
 	dw NewBarkGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
+	dw KagawaGroupSprites
 	assert_table_length NUM_MAP_GROUPS
 
 PalletGroupSprites:
@@ -658,6 +659,19 @@ FastShipGroupSprites:
 	db SPRITE_ROCK
 
 CableClubGroupSprites:
+	db SPRITE_OAK
+	db SPRITE_FISHER
+	db SPRITE_TEACHER
+	db SPRITE_TWIN
+	db SPRITE_POKEFAN_M
+	db SPRITE_GRAMPS
+	db SPRITE_FAIRY
+	db SPRITE_RIVAL
+	db SPRITE_FISHING_GURU
+	db SPRITE_POKE_BALL
+	db SPRITE_POKEDEX
+
+KagawaGroupSprites:
 	db SPRITE_OAK
 	db SPRITE_FISHER
 	db SPRITE_TEACHER

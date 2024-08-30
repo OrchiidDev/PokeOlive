@@ -1047,3 +1047,9 @@ GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.ablk"
 
 ENDSECTION
+
+
+SECTION "Map Blocks 4", ROMX
+
+HonzuTown_Blocks:
+	INCBIN "maps/HonzuTown.ablk"

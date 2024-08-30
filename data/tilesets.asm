@@ -47,4 +47,5 @@ Tilesets::
 	tileset TilesetKabutoWordRoom
 	tileset TilesetOmanyteWordRoom
 	tileset TilesetAerodactylWordRoom
+	tileset TilesetKagawa
 	assert_table_length NUM_TILESETS + 1

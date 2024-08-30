@@ -105,3 +105,7 @@
 ; group 26 (Cherrygrove)
 	RGB 31,14,28, 31,05,21 ; morn/day
 	RGB 14,07,17, 13,00,08 ; nite
+
+; group 27 (Kagawa)
+	RGB 31,15,18, 19,05,08 ; morn/day
+	RGB 21,15,24, 10,5,14 ; nite
