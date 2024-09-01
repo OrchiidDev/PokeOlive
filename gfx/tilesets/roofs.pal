@@ -107,5 +107,5 @@
 	RGB 14,07,17, 13,00,08 ; nite
 
 ; group 27 (Kagawa)
-	RGB 31,15,18, 19,05,08 ; morn/day
-	RGB 21,15,24, 10,5,14 ; nite
+	RGB 23,8,11, 16,05,05 ; morn/day
+	RGB 14,07,17, 12,00,10 ; nite

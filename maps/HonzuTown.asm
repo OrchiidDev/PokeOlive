@@ -11,7 +11,7 @@ HonzuTown_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  7,  10, PLAYERS_HOUSE_2F, 1
+	warp_event 11, 30, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events
 
