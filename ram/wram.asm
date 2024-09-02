@@ -2266,6 +2266,7 @@ wItemsPocketCursor::    db
 wKeyItemsPocketCursor:: db
 wBallsPocketCursor::    db
 wTMHMPocketCursor::     db
+wBaitPocketCursor::     db
 
 wPCItemsScrollPosition::        db
 	ds 1
@@ -2273,6 +2274,7 @@ wItemsPocketScrollPosition::    db
 wKeyItemsPocketScrollPosition:: db
 wBallsPocketScrollPosition::    db
 wTMHMPocketScrollPosition::     db
+wBaitPocketScrollPosition::	    db
 
 wSwitchMon::
 wSwitchItem::
@@ -2778,6 +2780,7 @@ NEXTU
 wDudeNumItems:: db
 wDudeItems:: ds 2 * 4 + 1
 
+wDudeNumBait::
 wDudeNumKeyItems:: db
 wDudeKeyItems:: ds 18 + 1
 
@@ -2929,8 +2932,7 @@ wObject{d:n}Struct:: object_struct wObject{d:n}
 endr
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
-
-	ds 40
+	
 
 wMapObjects::
 wPlayerObject:: map_object wPlayer ; player is map object 0
@@ -3002,6 +3004,9 @@ wKeyItems:: ds MAX_KEY_ITEMS + 1
 
 wNumBalls:: db
 wBalls:: ds MAX_BALLS * 2 + 1
+
+wNumBait:: db
+wBait:: ds MAX_BAIT * 2 + 1
 
 wNumPCItems:: db
 wPCItems:: ds MAX_PC_ITEMS * 2 + 1

@@ -157,6 +157,9 @@ _ResetWRAM:
 	ld hl, wNumBalls
 	call .InitList
 
+	ld hl, wNumBait
+	call .InitList
+
 	ld hl, wNumPCItems
 	call .InitList
 
