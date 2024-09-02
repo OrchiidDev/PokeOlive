@@ -485,5 +485,7 @@ SECTION "Map Scripts 25", ROMX
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/HonzuTown.asm"
+INCLUDE "maps/LakeFuchu.asm"
+INCLUDE "maps/MineyamaPark.asm"
 
 ENDSECTION

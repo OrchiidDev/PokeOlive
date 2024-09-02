@@ -25,12 +25,12 @@ HonzuTown_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 11, 30, PLAYERS_HOUSE_2F, 1
+	warp_event  7, 30, PLAYERS_HOUSE_2F, 1
 
 	def_coord_events
 
 	def_bg_events
 
 	def_object_events
-	object_event  34,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonzuGyaradosScript, -1
+	object_event 30,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonzuGyaradosScript, -1
 

@@ -502,7 +502,9 @@ ENDM
 	endgroup
 
 	newgroup KAGAWA												  ; 27
-	map_const HONZU_TOWN,								    24, 18 ; 1
+	map_const HONZU_TOWN,								    22, 18 ; 1
+	map_const LAKE_FUCHU,									32, 24 ; 2
+	map_const MINEYAMA_PARK,								18, 18 ; 3
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 27

@@ -375,7 +375,15 @@ ENDM
 	connection north, Route10North, ROUTE_10_NORTH, 0
 	connection south, LavenderTown, LAVENDER_TOWN, 0
 
-	map_attributes HonzuTown, HONZU_TOWN, $2c, 0
+	map_attributes HonzuTown, HONZU_TOWN, $2c, WEST | EAST
+	connection west, LakeFuchu, LAKE_FUCHU, 6
+	connection east, MineyamaPark, MINEYAMA_PARK, 0
+
+	map_attributes LakeFuchu, LAKE_FUCHU, $2c, EAST
+	connection east, HonzuTown, HONZU_TOWN, -6
+
+	map_attributes MineyamaPark, MINEYAMA_PARK, $2c, WEST
+	connection west, HonzuTown, HONZU_TOWN, 0
 
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0

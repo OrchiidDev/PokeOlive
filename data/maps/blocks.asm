@@ -1053,3 +1053,10 @@ SECTION "Map Blocks 4", ROMX
 
 HonzuTown_Blocks:
 	INCBIN "maps/HonzuTown.ablk"
+
+
+LakeFuchu_Blocks:
+	INCBIN "maps/LakeFuchu.ablk"
+
+MineyamaPark_Blocks:
+	INCBIN "maps/MineyamaPark.ablk"
