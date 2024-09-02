@@ -344,9 +344,9 @@ SurfFunction:
 	dw .AlreadySurfing
 
 .TrySurf:
-	ld de, ENGINE_FOGBADGE
-	call CheckBadge
-	jr c, .nofogbadge
+;	ld de, ENGINE_FOGBADGE
+;	call CheckBadge
+;	jr c, .nofogbadge
 	ld hl, wBikeFlags
 	bit BIKEFLAGS_ALWAYS_ON_BIKE_F, [hl]
 	jr nz, .cannotsurf
@@ -496,6 +496,7 @@ TrySurfOW::
 	ld a, [wFacingTileID]
 	call GetTilePermission
 	cp WATER_TILE
+	cp KELP_TILE
 	jr nz, .quit
 
 ; Check tile permissions.
@@ -1450,6 +1451,10 @@ FishFunction:
 	jr z, .fail
 	call GetFacingTileCoord
 	call GetTilePermission
+	cp KELP_TILE
+	jr z, .facingkelp
+	call GetFacingTileCoord
+	call GetTilePermission
 	cp WATER_TILE
 	jr z, .facingwater
 .fail
@@ -1463,11 +1468,34 @@ FishFunction:
 	ld a, $4
 	ret
 
+.facingkelp
+	call GetKelpGroup
+	and a
+	jr nz, .goodtofishkelp
+	ld a, $4
+	ret
+
 .goodtofish
 	ld d, a
 	ld a, [wFishingRodUsed]
 	ld e, a
 	farcall Fish
+	ld a, d
+	and a
+	jr z, .nonibble
+	ld [wTempWildMonSpecies], a
+	ld a, e
+	ld [wCurPartyLevel], a
+	ld a, BATTLETYPE_FISH
+	ld [wBattleType], a
+	ld a, $2
+	ret
+
+.goodtofishkelp
+	ld d, a
+	ld a, [wFishingRodUsed]
+	ld e, a
+	farcall FishKelp
 	ld a, d
 	and a
 	jr z, .nonibble

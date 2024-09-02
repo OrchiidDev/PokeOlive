@@ -22,21 +22,22 @@ FishGroups:
 	fishgroup 50 percent + 1, .Qwilfish_Old,         .Qwilfish_Good,         .Qwilfish_Super
 	fishgroup 50 percent + 1, .Remoraid_Old,         .Remoraid_Good,         .Remoraid_Super
 	fishgroup 50 percent + 1, .Qwilfish_NoSwarm_Old, .Qwilfish_NoSwarm_Good, .Qwilfish_NoSwarm_Super
+	fishgroup 50 percent + 1, .KelpKrabby_Old, 		 .KelpKrabby_Good, 		 .KelpKrabby_Super
 	assert_table_length NUM_FISHGROUPS
 
 .Shore_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     KRABBY,     10
+	db 100 percent,     MAGIKARP,     10
 .Shore_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  70 percent,     MAGIKARP,     20
+	db  90 percent + 1, MAGIKARP,     20
 	db 100 percent,     time_group 0
 .Shore_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     MAGIKARP,     40
 	db  70 percent,     time_group 1
-	db  90 percent + 1, KRABBY,     40
+	db  90 percent + 1, MAGIKARP,     40
 	db 100 percent,     KINGLER,    40
 
 .Ocean_Old:
@@ -162,14 +163,14 @@ FishGroups:
 .WhirlIslands_Old:
 	db  70 percent + 1, MAGIKARP,   10
 	db  85 percent + 1, MAGIKARP,   10
-	db 100 percent,     KRABBY,     10
+	db 100 percent,     MAGIKARP,     10
 .WhirlIslands_Good:
 	db  35 percent,     MAGIKARP,   20
-	db  70 percent,     KRABBY,     20
-	db  90 percent + 1, KRABBY,     20
+	db  70 percent,     MAGIKARP,     20
+	db  90 percent + 1, MAGIKARP,     20
 	db 100 percent,     time_group 18
 .WhirlIslands_Super:
-	db  40 percent,     KRABBY,     40
+	db  40 percent,     MAGIKARP,     40
 	db  70 percent,     time_group 19
 	db  90 percent + 1, KINGLER,    40
 	db 100 percent,     SEADRA,     40
@@ -206,6 +207,21 @@ FishGroups:
 	db  70 percent,     time_group 7
 	db  90 percent + 1, MAGIKARP,   40
 	db 100 percent,     REMORAID,   40
+
+.KelpKrabby_Old:
+	db 70 percent + 1,  KRABBY, 	5
+	db 85 percent + 1,  KRABBY, 	6
+	db 100 percent,     KRABBY, 	7
+.KelpKrabby_Good:
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
+.KelpKrabby_Super:
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
+	db 100 percent,     KRABBY, 	10
 
 TimeFishGroups:
 	;  day              nite

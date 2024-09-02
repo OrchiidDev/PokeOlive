@@ -748,6 +748,8 @@ ENDM
 	call GetTilePermission
 	cp WATER_TILE
 	jr z, .Water
+;	cp KELP_TILE
+;	jr z, .Water
 
 ; Can walk back onto land from water.
 	and a ; LAND_TILE

@@ -1,6 +1,7 @@
 ; collision permissions (see data/collision/collision_permissions.asm)
 DEF LAND_TILE  EQU $00
 DEF WATER_TILE EQU $01
+DEF KELP_TILE  EQU $02
 DEF WALL_TILE  EQU $0f
 DEF TALK       EQU $10
 
@@ -8,6 +9,7 @@ DEF TALK       EQU $10
 ; CollisionPermissionTable indexes (see data/collision/collision_permissions.asm)
 DEF COLL_FLOOR             EQU $00
 DEF COLL_01                EQU $01 ; garbage
+DEF COLL_KELP			   EQU $02
 DEF COLL_03                EQU $03 ; garbage
 DEF COLL_04                EQU $04 ; garbage
 DEF COLL_WALL              EQU $07

@@ -15,6 +15,7 @@ DEF MAP_LOCATION           rb ; 5
 DEF MAP_MUSIC              rb ; 6
 DEF MAP_PALETTE            rb ; 7
 DEF MAP_FISHGROUP          rb ; 8
+DEF MAP_KELPGROUP		   rb ; 9
 DEF MAP_LENGTH EQU _RS
 
 ; map environments (wEnvironment)
@@ -54,7 +55,14 @@ DEF NUM_MAP_PALETTES EQU const_value
 	const FISHGROUP_QWILFISH
 	const FISHGROUP_REMORAID
 	const FISHGROUP_QWILFISH_NO_SWARM
+	const FISHGROUP_KELPKRABBY
 DEF NUM_FISHGROUPS EQU const_value - 1
+
+; KelpGroup indexes (see data/wild/fish.asm)
+	const_def
+	const KELPGROUP_NONE
+	const KELPGROUP_KRABBY
+DEF NUM_KELPGROUPS EQU const_value - 1
 
 ; connection directions (see data/maps/data.asm)
 	const_def

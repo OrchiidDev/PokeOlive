@@ -6,6 +6,20 @@ HonzuTown_MapScripts:
 
 	def_callbacks
 
+HonzuGyaradosScript:
+	opentext
+	writetext GyaradosSurfText
+	promptbutton
+	givepoke GYARADOS, 5, BERRY
+	verbosegiveitem HM_SURF
+	verbosegiveitem OLD_ROD
+	closetext
+	end
+
+GyaradosSurfText:
+	text "Gyarados and"
+	line "Surf added."
+	done
 
 HonzuTown_MapEvents:
 	db 0, 0 ; filler
@@ -18,4 +32,5 @@ HonzuTown_MapEvents:
 	def_bg_events
 
 	def_object_events
+	object_event  34,  8, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HonzuGyaradosScript, -1
 

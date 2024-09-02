@@ -2307,6 +2307,20 @@ GetFishingGroup::
 	pop de
 	ret
 
+GetKelpGroup::
+	push de
+	push hl
+	push bc
+
+	ld de, MAP_KELPGROUP
+	call GetMapField
+	ld a, c
+
+	pop bc
+	pop hl
+	pop de
+	ret
+
 LoadMapTileset::
 	push hl
 	push bc
