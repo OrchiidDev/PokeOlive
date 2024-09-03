@@ -1060,3 +1060,9 @@ LakeFuchu_Blocks:
 
 MineyamaPark_Blocks:
 	INCBIN "maps/MineyamaPark.ablk"
+
+HonzuHarbor_Blocks:
+	INCBIN "maps/HonzuHarbor.ablk"
+
+KagaTown_Blocks:
+	INCBIN "maps/KagaTown.ablk"

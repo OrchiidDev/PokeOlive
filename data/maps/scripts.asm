@@ -487,5 +487,8 @@ INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/HonzuTown.asm"
 INCLUDE "maps/LakeFuchu.asm"
 INCLUDE "maps/MineyamaPark.asm"
+INCLUDE "maps/HonzuHarbor.asm"
+INCLUDE "maps/KagaTown.asm"
+
 
 ENDSECTION
