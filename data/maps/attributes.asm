@@ -380,7 +380,8 @@ ENDM
 	connection west, LakeFuchu, LAKE_FUCHU, 6
 	connection east, MineyamaPark, MINEYAMA_PARK, 0
 
-	map_attributes LakeFuchu, LAKE_FUCHU, $2c, WEST | EAST
+	map_attributes LakeFuchu, LAKE_FUCHU, $2c, NORTH | WEST | EAST
+	connection north, MtKaga, MT_KAGA, 0
 	connection west, KagaTown, KAGA_TOWN, -15
 	connection east, HonzuTown, HONZU_TOWN, -6
 
@@ -392,6 +393,9 @@ ENDM
 
 	map_attributes KagaTown, KAGA_TOWN, $2c, EAST
 	connection east, LakeFuchu, LAKE_FUCHU, 15
+
+	map_attributes MtKaga, MT_KAGA, $2c, SOUTH
+	connection south, LakeFuchu, LAKE_FUCHU, 0
 
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0

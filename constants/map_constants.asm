@@ -506,7 +506,8 @@ ENDM
 	map_const LAKE_FUCHU,									32, 24 ; 2
 	map_const MINEYAMA_PARK,								18, 18 ; 3
 	map_const HONZU_HARBOR,									18, 10 ; 4
-	map_const KAGA_TOWN,									16, 24
+	map_const KAGA_TOWN,									16, 24 ; 5
+	map_const MT_KAGA,										32, 24 ; 6
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 27

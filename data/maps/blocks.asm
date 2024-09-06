@@ -1065,4 +1065,7 @@ HonzuHarbor_Blocks:
 	INCBIN "maps/HonzuHarbor.ablk"
 
 KagaTown_Blocks:
-	INCBIN "maps/KagaTown.ablk"
+	INCBIN "maps/KagaTown.ablk"\
+
+MtKaga_Blocks:
+	INCBIN "maps/MtKaga.ablk"

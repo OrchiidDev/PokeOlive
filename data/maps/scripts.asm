@@ -489,6 +489,6 @@ INCLUDE "maps/LakeFuchu.asm"
 INCLUDE "maps/MineyamaPark.asm"
 INCLUDE "maps/HonzuHarbor.asm"
 INCLUDE "maps/KagaTown.asm"
-
+INCLUDE "maps/MtKaga.asm"
 
 ENDSECTION
