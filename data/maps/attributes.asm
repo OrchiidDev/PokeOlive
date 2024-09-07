@@ -394,9 +394,14 @@ ENDM
 	map_attributes KagaTown, KAGA_TOWN, $2c, EAST
 	connection east, LakeFuchu, LAKE_FUCHU, 15
 
-	map_attributes MtKaga, MT_KAGA, $2c, SOUTH
+	map_attributes MtKaga, MT_KAGA, $2c, NORTH | SOUTH
+	connection north, KagaPond, KAGA_POND, 8
 	connection south, LakeFuchu, LAKE_FUCHU, 0
 
+	map_attributes KagaPond, KAGA_POND, $2c, SOUTH
+	connection south, MtKaga, MT_KAGA, -8
+
+	map_attributes RamenShop, RAMEN_SHOP, $00, 0
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $00, 0

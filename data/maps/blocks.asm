@@ -1069,3 +1069,9 @@ KagaTown_Blocks:
 
 MtKaga_Blocks:
 	INCBIN "maps/MtKaga.ablk"
+
+KagaPond_Blocks:
+	INCBIN "maps/KagaPond.ablk"
+
+RamenShop_Blocks:
+	INCBIN "maps/RamenShop.ablk"

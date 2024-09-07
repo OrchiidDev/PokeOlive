@@ -508,6 +508,8 @@ ENDM
 	map_const HONZU_HARBOR,									18, 10 ; 4
 	map_const KAGA_TOWN,									16, 24 ; 5
 	map_const MT_KAGA,										32, 24 ; 6
+	map_const KAGA_POND,									18, 24 ; 7
+	map_const RAMEN_SHOP,									 8,  6 ; 8
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 27

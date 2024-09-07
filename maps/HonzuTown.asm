@@ -26,6 +26,8 @@ HonzuTown_MapEvents:
 
 	def_warp_events
 	warp_event  7, 30, PLAYERS_HOUSE_2F, 1
+	warp_event  4, 21, RAMEN_SHOP, 1
+	warp_event  5, 21, RAMEN_SHOP, 2
 
 	def_coord_events
 
