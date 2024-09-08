@@ -492,5 +492,6 @@ INCLUDE "maps/KagaTown.asm"
 INCLUDE "maps/MtKaga.asm"
 INCLUDE "maps/KagaPond.asm"
 INCLUDE "maps/RamenShop.asm"
+INCLUDE "maps/KagaFishingShop.asm"
 
 ENDSECTION

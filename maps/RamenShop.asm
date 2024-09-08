@@ -18,6 +18,9 @@ RamenShopDeliveryScript:
 	writetext ChoDeliveryAcceptedText
 	promptbutton
 	verbosegiveitem MYSTIC_WATER
+	waitbutton
+	closetext
+	end
 .No:
 	writetext ChoDeliveryDeniedText
 	waitbutton

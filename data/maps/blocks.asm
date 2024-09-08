@@ -1075,3 +1075,6 @@ KagaPond_Blocks:
 
 RamenShop_Blocks:
 	INCBIN "maps/RamenShop.ablk"
+
+KagaFishingShop_Blocks:
+	INCBIN "maps/KagaFishingShop.ablk"
