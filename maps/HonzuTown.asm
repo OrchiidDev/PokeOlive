@@ -14,6 +14,7 @@ HonzuGyaradosScript:
 	verbosegiveitem HM_SURF
 	verbosegiveitem OLD_ROD
 	closetext
+	setflag ENGINE_POKEDEX
 	end
 
 GyaradosSurfText:

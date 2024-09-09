@@ -186,7 +186,7 @@ StartMenu::
 	dw StartMenu_Pokegear, .PokegearString, .PokegearDesc
 	dw StartMenu_Quit,     .QuitString,     .QuitDesc
 
-.PokedexString:  db "#DEX@"
+.PokedexString:  db "JOURNAL@"
 .PartyString:    db "#MON@"
 .PackString:     db "PACK@"
 .StatusString:   db "<PLAYER>@"
