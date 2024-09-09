@@ -385,7 +385,8 @@ ENDM
 	connection west, KagaTown, KAGA_TOWN, -15
 	connection east, HonzuTown, HONZU_TOWN, -6
 
-	map_attributes MineyamaPark, MINEYAMA_PARK, $2c, WEST
+	map_attributes MineyamaPark, MINEYAMA_PARK, $2c, NORTH | WEST
+	connection north, KagaCamp, KAGA_CAMP, 4
 	connection west, HonzuTown, HONZU_TOWN, 0
 
 	map_attributes HonzuHarbor, HONZU_HARBOR, $2c, SOUTH
@@ -400,6 +401,9 @@ ENDM
 
 	map_attributes KagaPond, KAGA_POND, $2c, SOUTH
 	connection south, MtKaga, MT_KAGA, -8
+
+	map_attributes KagaCamp, KAGA_CAMP, $2c, SOUTH
+	connection south, MineyamaPark, MINEYAMA_PARK, -4
 
 	map_attributes RamenShop, RAMEN_SHOP, $00, 0
 	map_attributes KagaFishingShop, KAGA_FISHING_SHOP, $00, 0

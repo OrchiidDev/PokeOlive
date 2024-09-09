@@ -493,5 +493,6 @@ INCLUDE "maps/MtKaga.asm"
 INCLUDE "maps/KagaPond.asm"
 INCLUDE "maps/RamenShop.asm"
 INCLUDE "maps/KagaFishingShop.asm"
+INCLUDE "maps/MineyamaCamp.asm"
 
 ENDSECTION

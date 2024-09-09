@@ -1078,3 +1078,6 @@ RamenShop_Blocks:
 
 KagaFishingShop_Blocks:
 	INCBIN "maps/KagaFishingShop.ablk"
+
+KagaCamp_Blocks:
+	INCBIN "maps/MineyamaCamp.ablk"
