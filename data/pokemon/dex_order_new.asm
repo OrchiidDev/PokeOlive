@@ -253,4 +253,5 @@ NewPokedexOrder:
 	db MEWTWO
 	db MEW
 	db CELEBI
+	db TAILLOW
 	assert_table_length NUM_POKEMON

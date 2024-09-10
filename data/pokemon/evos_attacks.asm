@@ -3355,3 +3355,16 @@ CelebiEvosAttacks:
 	db 40, BATON_PASS
 	db 50, PERISH_SONG
 	db 0 ; no more level-up moves
+
+
+TaillowEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, TACKLE
+	db 5, SAND_ATTACK
+	db 9, GUST
+	db 15, QUICK_ATTACK
+	db 21, WHIRLWIND
+	db 29, WING_ATTACK
+	db 37, AGILITY
+	db 47, MIRROR_MOVE
+	db 0 ; no more level-up moves

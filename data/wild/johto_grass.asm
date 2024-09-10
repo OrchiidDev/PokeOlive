@@ -1710,4 +1710,33 @@ JohtoGrassWildMons:
 	db 44, GOLBAT
 	end_grass_wildmons
 
+	def_grass_wildmons LAKE_FUCHU
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 5, YANMA
+	db 6, YANMA
+	db 6, YANMA
+	db 4, WOOPER
+	db 5, WOOPER
+	db 5, SENTRET
+	db 5, TAILLOW
+	; day
+	db 5, YANMA
+	db 4, SENTRET
+	db 5, SENTRET
+	db 5, WOOPER
+	db 6, WOOPER
+	db 4, TAILLOW
+	db 5, TAILLOW
+	; nite
+	db 4, HOOTHOOT
+	db 6, HOOTHOOT
+	db 7, HOOTHOOT
+	db 5, HOOTHOOT
+	db 6, SPINARAK
+	db 7, SPINARAK
+	db 7, SPINARAK
+	end_grass_wildmons
+
+
 	db -1 ; end

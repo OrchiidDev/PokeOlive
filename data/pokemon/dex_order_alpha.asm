@@ -220,6 +220,7 @@ AlphabeticalPokedexOrder:
 	db SUNFLORA
 	db SUNKERN
 	db SWINUB
+	db TAILLOW
 	db TANGELA
 	db TAUROS
 	db TEDDIURSA
