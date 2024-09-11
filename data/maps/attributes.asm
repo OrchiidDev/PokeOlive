@@ -399,11 +399,15 @@ ENDM
 	connection north, KagaPond, KAGA_POND, 8
 	connection south, LakeFuchu, LAKE_FUCHU, 0
 
-	map_attributes KagaPond, KAGA_POND, $2c, SOUTH
+	map_attributes KagaPond, KAGA_POND, $2c, EAST | SOUTH
+	connection east, KagaCastle, KAGA_CASTLE, 12
 	connection south, MtKaga, MT_KAGA, -8
 
 	map_attributes KagaCamp, KAGA_CAMP, $2c, SOUTH
 	connection south, MineyamaPark, MINEYAMA_PARK, -4
+
+	map_attributes KagaCastle, KAGA_CASTLE, $2c, WEST
+	connection west, KagaPond, KAGA_POND, -12
 
 	map_attributes RamenShop, RAMEN_SHOP, $00, 0
 	map_attributes KagaFishingShop, KAGA_FISHING_SHOP, $00, 0

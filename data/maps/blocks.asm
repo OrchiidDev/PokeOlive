@@ -1081,3 +1081,6 @@ KagaFishingShop_Blocks:
 
 KagaCamp_Blocks:
 	INCBIN "maps/MineyamaCamp.ablk"
+
+KagaCastle_Blocks:
+	INCBIN "maps/KagaCastle.ablk"

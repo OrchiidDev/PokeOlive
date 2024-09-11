@@ -1,16 +1,15 @@
 	object_const_def
 
-
-MtKaga_MapScripts:
+KagaCastle_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-MtKaga_MapEvents:
+KagaCastle_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 52,  7, KAGA_CASTLE, 1
+	warp_event 8,  9, MT_KAGA, 1
 
 	def_coord_events
 
