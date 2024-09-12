@@ -267,12 +267,6 @@ INCBIN "data/tilesets/house_metatiles.bin"
 TilesetHouseColl::
 INCLUDE "data/tilesets/house_collision.asm"
 
-TilesetLighthouseGFX::
-INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
-
-TilesetLighthouseMeta::
-INCBIN "data/tilesets/lighthouse_metatiles.bin"
-
 TilesetLighthouseColl::
 INCLUDE "data/tilesets/lighthouse_collision.asm"
 
@@ -320,6 +314,12 @@ INCBIN "data/tilesets/ruins_of_alph_metatiles.bin"
 
 TilesetRuinsOfAlphColl::
 INCLUDE "data/tilesets/ruins_of_alph_collision.asm"
+
+TilesetLighthouseGFX::
+INCBIN "gfx/tilesets/lighthouse.2bpp.lz"
+
+TilesetLighthouseMeta::
+INCBIN "data/tilesets/lighthouse_metatiles.bin"
 
 
 SECTION "Tileset Data 8", ROMX

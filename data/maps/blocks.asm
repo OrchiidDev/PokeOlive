@@ -1084,3 +1084,6 @@ KagaCamp_Blocks:
 
 KagaCastle_Blocks:
 	INCBIN "maps/KagaCastle.ablk"
+
+KagaLibrary_Blocks:
+	INCBIN "maps/KagaLibrary.ablk"

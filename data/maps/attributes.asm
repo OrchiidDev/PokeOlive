@@ -411,6 +411,7 @@ ENDM
 
 	map_attributes RamenShop, RAMEN_SHOP, $00, 0
 	map_attributes KagaFishingShop, KAGA_FISHING_SHOP, $00, 0
+	map_attributes KagaLibrary, KAGA_LIBRARY, $00, 0
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $00, 0

@@ -513,6 +513,7 @@ ENDM
 	map_const KAGA_FISHING_SHOP,							 5,  6 ; 9
 	map_const KAGA_CAMP,									18, 22 ; 10
 	map_const KAGA_CASTLE,									14, 12 ; 11
+	map_const KAGA_LIBRARY,									 8,  6 ; 12
 	endgroup
 
 DEF NUM_MAP_GROUPS EQU const_value ; 27
