@@ -2,256 +2,256 @@
 
 EvosAttacksPointers::
 	table_width 2, EvosAttacksPointers
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
-	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
-	dw WartortleEvosAttacks
-	dw BlastoiseEvosAttacks
-	dw CaterpieEvosAttacks
-	dw MetapodEvosAttacks
-	dw ButterfreeEvosAttacks
-	dw WeedleEvosAttacks
-	dw KakunaEvosAttacks
-	dw BeedrillEvosAttacks
-	dw PidgeyEvosAttacks
-	dw PidgeottoEvosAttacks
-	dw PidgeotEvosAttacks
-	dw RattataEvosAttacks
-	dw RaticateEvosAttacks
-	dw SpearowEvosAttacks
-	dw FearowEvosAttacks
-	dw EkansEvosAttacks
-	dw ArbokEvosAttacks
-	dw PikachuEvosAttacks
-	dw RaichuEvosAttacks
-	dw SandshrewEvosAttacks
-	dw SandslashEvosAttacks
-	dw NidoranFEvosAttacks
-	dw NidorinaEvosAttacks
-	dw NidoqueenEvosAttacks
-	dw NidoranMEvosAttacks
-	dw NidorinoEvosAttacks
-	dw NidokingEvosAttacks
-	dw ClefairyEvosAttacks
-	dw ClefableEvosAttacks
-	dw VulpixEvosAttacks
-	dw NinetalesEvosAttacks
-	dw JigglypuffEvosAttacks
-	dw WigglytuffEvosAttacks
-	dw ZubatEvosAttacks
-	dw GolbatEvosAttacks
-	dw OddishEvosAttacks
-	dw GloomEvosAttacks
-	dw VileplumeEvosAttacks
-	dw ParasEvosAttacks
-	dw ParasectEvosAttacks
-	dw VenonatEvosAttacks
-	dw VenomothEvosAttacks
-	dw DiglettEvosAttacks
-	dw DugtrioEvosAttacks
-	dw MeowthEvosAttacks
-	dw PersianEvosAttacks
-	dw PsyduckEvosAttacks
-	dw GolduckEvosAttacks
-	dw MankeyEvosAttacks
-	dw PrimeapeEvosAttacks
-	dw GrowlitheEvosAttacks
-	dw ArcanineEvosAttacks
-	dw PoliwagEvosAttacks
-	dw PoliwhirlEvosAttacks
-	dw PoliwrathEvosAttacks
-	dw AbraEvosAttacks
-	dw KadabraEvosAttacks
-	dw AlakazamEvosAttacks
-	dw MachopEvosAttacks
-	dw MachokeEvosAttacks
-	dw MachampEvosAttacks
-	dw BellsproutEvosAttacks
-	dw WeepinbellEvosAttacks
-	dw VictreebelEvosAttacks
-	dw TentacoolEvosAttacks
-	dw TentacruelEvosAttacks
-	dw GeodudeEvosAttacks
-	dw GravelerEvosAttacks
-	dw GolemEvosAttacks
-	dw PonytaEvosAttacks
-	dw RapidashEvosAttacks
-	dw SlowpokeEvosAttacks
-	dw SlowbroEvosAttacks
-	dw MagnemiteEvosAttacks
-	dw MagnetonEvosAttacks
-	dw FarfetchDEvosAttacks
-	dw DoduoEvosAttacks
-	dw DodrioEvosAttacks
-	dw SeelEvosAttacks
-	dw DewgongEvosAttacks
-	dw GrimerEvosAttacks
-	dw MukEvosAttacks
-	dw ShellderEvosAttacks
-	dw CloysterEvosAttacks
-	dw GastlyEvosAttacks
-	dw HaunterEvosAttacks
-	dw GengarEvosAttacks
-	dw OnixEvosAttacks
-	dw DrowzeeEvosAttacks
-	dw HypnoEvosAttacks
-	dw KrabbyEvosAttacks
-	dw KinglerEvosAttacks
-	dw VoltorbEvosAttacks
-	dw ElectrodeEvosAttacks
-	dw ExeggcuteEvosAttacks
-	dw ExeggutorEvosAttacks
-	dw CuboneEvosAttacks
-	dw MarowakEvosAttacks
-	dw HitmonleeEvosAttacks
-	dw HitmonchanEvosAttacks
-	dw LickitungEvosAttacks
-	dw KoffingEvosAttacks
-	dw WeezingEvosAttacks
-	dw RhyhornEvosAttacks
-	dw RhydonEvosAttacks
-	dw ChanseyEvosAttacks
-	dw TangelaEvosAttacks
-	dw KangaskhanEvosAttacks
-	dw HorseaEvosAttacks
-	dw SeadraEvosAttacks
-	dw GoldeenEvosAttacks
-	dw SeakingEvosAttacks
-	dw StaryuEvosAttacks
-	dw StarmieEvosAttacks
-	dw MrMimeEvosAttacks
-	dw ScytherEvosAttacks
-	dw JynxEvosAttacks
-	dw ElectabuzzEvosAttacks
-	dw MagmarEvosAttacks
-	dw PinsirEvosAttacks
-	dw TaurosEvosAttacks
-	dw MagikarpEvosAttacks
-	dw GyaradosEvosAttacks
-	dw LaprasEvosAttacks
-	dw DittoEvosAttacks
-	dw EeveeEvosAttacks
-	dw VaporeonEvosAttacks
-	dw JolteonEvosAttacks
-	dw FlareonEvosAttacks
-	dw PorygonEvosAttacks
-	dw OmanyteEvosAttacks
-	dw OmastarEvosAttacks
-	dw KabutoEvosAttacks
-	dw KabutopsEvosAttacks
-	dw AerodactylEvosAttacks
-	dw SnorlaxEvosAttacks
-	dw ArticunoEvosAttacks
-	dw ZapdosEvosAttacks
-	dw MoltresEvosAttacks
-	dw DratiniEvosAttacks
-	dw DragonairEvosAttacks
-	dw DragoniteEvosAttacks
-	dw MewtwoEvosAttacks
-	dw MewEvosAttacks
-	dw ChikoritaEvosAttacks
-	dw BayleefEvosAttacks
-	dw MeganiumEvosAttacks
-	dw CyndaquilEvosAttacks
-	dw QuilavaEvosAttacks
-	dw TyphlosionEvosAttacks
-	dw TotodileEvosAttacks
-	dw CroconawEvosAttacks
-	dw FeraligatrEvosAttacks
-	dw SentretEvosAttacks
-	dw FurretEvosAttacks
-	dw HoothootEvosAttacks
-	dw NoctowlEvosAttacks
-	dw LedybaEvosAttacks
-	dw LedianEvosAttacks
-	dw SpinarakEvosAttacks
-	dw AriadosEvosAttacks
-	dw CrobatEvosAttacks
-	dw ChinchouEvosAttacks
-	dw LanturnEvosAttacks
-	dw PichuEvosAttacks
-	dw CleffaEvosAttacks
-	dw IgglybuffEvosAttacks
-	dw TogepiEvosAttacks
-	dw TogeticEvosAttacks
-	dw NatuEvosAttacks
-	dw XatuEvosAttacks
-	dw MareepEvosAttacks
-	dw FlaaffyEvosAttacks
-	dw AmpharosEvosAttacks
-	dw BellossomEvosAttacks
-	dw MarillEvosAttacks
-	dw AzumarillEvosAttacks
-	dw SudowoodoEvosAttacks
-	dw PolitoedEvosAttacks
-	dw HoppipEvosAttacks
-	dw SkiploomEvosAttacks
-	dw JumpluffEvosAttacks
-	dw AipomEvosAttacks
-	dw SunkernEvosAttacks
-	dw SunfloraEvosAttacks
-	dw YanmaEvosAttacks
-	dw WooperEvosAttacks
-	dw QuagsireEvosAttacks
-	dw EspeonEvosAttacks
-	dw UmbreonEvosAttacks
-	dw MurkrowEvosAttacks
-	dw SlowkingEvosAttacks
-	dw MisdreavusEvosAttacks
-	dw UnownEvosAttacks
-	dw WobbuffetEvosAttacks
-	dw GirafarigEvosAttacks
-	dw PinecoEvosAttacks
-	dw ForretressEvosAttacks
-	dw DunsparceEvosAttacks
-	dw GligarEvosAttacks
-	dw SteelixEvosAttacks
-	dw SnubbullEvosAttacks
-	dw GranbullEvosAttacks
-	dw QwilfishEvosAttacks
-	dw ScizorEvosAttacks
-	dw ShuckleEvosAttacks
-	dw HeracrossEvosAttacks
-	dw SneaselEvosAttacks
-	dw TeddiursaEvosAttacks
-	dw UrsaringEvosAttacks
-	dw SlugmaEvosAttacks
-	dw MagcargoEvosAttacks
-	dw SwinubEvosAttacks
-	dw PiloswineEvosAttacks
-	dw CorsolaEvosAttacks
-	dw RemoraidEvosAttacks
-	dw OctilleryEvosAttacks
-	dw DelibirdEvosAttacks
-	dw MantineEvosAttacks
-	dw SkarmoryEvosAttacks
-	dw HoundourEvosAttacks
-	dw HoundoomEvosAttacks
-	dw KingdraEvosAttacks
-	dw PhanpyEvosAttacks
-	dw DonphanEvosAttacks
-	dw Porygon2EvosAttacks
-	dw StantlerEvosAttacks
-	dw SmeargleEvosAttacks
-	dw TyrogueEvosAttacks
-	dw HitmontopEvosAttacks
-	dw SmoochumEvosAttacks
-	dw ElekidEvosAttacks
-	dw MagbyEvosAttacks
-	dw MiltankEvosAttacks
-	dw BlisseyEvosAttacks
-	dw RaikouEvosAttacks
-	dw EnteiEvosAttacks
-	dw SuicuneEvosAttacks
-	dw LarvitarEvosAttacks
-	dw PupitarEvosAttacks
-	dw TyranitarEvosAttacks
-	dw LugiaEvosAttacks
-	dw HoOhEvosAttacks
-	dw CelebiEvosAttacks
-	dw TaillowEvosAttacks
+dw POLIWAGEvosAttacks
+dw POLIWHIRLEvosAttacks
+dw POLIWRATHEvosAttacks
+dw POLITOEDEvosAttacks
+dw SENTRETEvosAttacks
+dw FURRETEvosAttacks
+dw TAILLOWEvosAttacks
+dw SWELLOWEvosAttacks
+dw HOOTHOOTEvosAttacks
+dw NOCTOWLEvosAttacks
+dw WOOPEREvosAttacks
+dw QUAGSIREEvosAttacks
+dw YANMAEvosAttacks
+dw YANMEGAEvosAttacks
+dw SPINARAKEvosAttacks
+dw ARIADOSEvosAttacks
+dw SURSKITEvosAttacks
+dw MASQUERAINEvosAttacks
+dw BARBOACHEvosAttacks
+dw WHISCASHEvosAttacks
+dw GOLDEENEvosAttacks
+dw SEAKINGEvosAttacks
+dw TEDDIURSAEvosAttacks
+dw URSARINGEvosAttacks
+dw MUNNAEvosAttacks
+dw MUSHARNAEvosAttacks
+dw MISDREAVUSEvosAttacks
+dw MISMAGIUSEvosAttacks
+dw SMEARGLEEvosAttacks
+dw BRONZOREvosAttacks
+dw BRONZONGEvosAttacks
+dw NATUEvosAttacks
+dw XATUEvosAttacks
+dw SEEDOTEvosAttacks
+dw NUZLEAFEvosAttacks
+dw SHIFTRYEvosAttacks
+dw LOTADEvosAttacks
+dw LOMBREEvosAttacks
+dw LUDICOLOEvosAttacks
+dw SPEAROWEvosAttacks
+dw FEAROWEvosAttacks
+dw PHANPYEvosAttacks
+dw DONPHANEvosAttacks
+dw LEDYBAEvosAttacks
+dw LEDIANEvosAttacks
+dw HOUNDOUREvosAttacks
+dw HOUNDOOMEvosAttacks
+dw SANDSHREWEvosAttacks
+dw SANDSLASHEvosAttacks
+dw SLOWPOKEEvosAttacks
+dw SLOWBROEvosAttacks
+dw SLOWKINGEvosAttacks
+dw SHELLDEREvosAttacks
+dw CLOYSTEREvosAttacks
+dw TYROGUEEvosAttacks
+dw HITMONCHANEvosAttacks
+dw HITMONLEEEvosAttacks
+dw HITMONTOPEvosAttacks
+dw BAGONEvosAttacks
+dw SHELLGONEvosAttacks
+dw SALAMENCEEvosAttacks
+dw KLINKEvosAttacks
+dw KLANGEvosAttacks
+dw KLINKLANGEvosAttacks
+dw ELEKIDEvosAttacks
+dw ELECTABUZZEvosAttacks
+dw ELECTIVIREEvosAttacks
+dw TYNAMOEvosAttacks
+dw EELEKTRIKEvosAttacks
+dw EELEKTROSSEvosAttacks
+dw MAGNEMITEEvosAttacks
+dw MAGNETONEvosAttacks
+dw MAGNEZONEEvosAttacks
+dw BELDUMEvosAttacks
+dw METANGEvosAttacks
+dw METAGROSSEvosAttacks
+dw GRIMEREvosAttacks
+dw MUKEvosAttacks
+dw TRUBBISHEvosAttacks
+dw GARBODOREvosAttacks
+dw KOFFINGEvosAttacks
+dw WEEZINGEvosAttacks
+dw JOLTIKEvosAttacks
+dw GALVANTULAEvosAttacks
+dw SCRAGGYEvosAttacks
+dw SCRAFTYEvosAttacks
+dw ZUBATEvosAttacks
+dw GOLBATEvosAttacks
+dw CROBATEvosAttacks
+dw KRABBYEvosAttacks
+dw KINGLEREvosAttacks
+dw STARYUEvosAttacks
+dw STARMIEEvosAttacks
+dw CARVANHAHEvosAttacks
+dw SHARPEDOEvosAttacks
+dw DITTOEvosAttacks
+dw PORYGONEvosAttacks
+dw PORYGON2EvosAttacks
+dw PORYGONZEvosAttacks
+dw MEOWTHEvosAttacks
+dw PERSIANEvosAttacks
+dw SKITTYEvosAttacks
+dw DELCATTYEvosAttacks
+dw ABRAEvosAttacks
+dw KADABRAEvosAttacks
+dw ALAKAZAMEvosAttacks
+dw RATTATAEvosAttacks
+dw RATICATEEvosAttacks
+dw SOLOSISEvosAttacks
+dw DUOSIONEvosAttacks
+dw REUNICLUSEvosAttacks
+dw COMBEEEvosAttacks
+dw VESPIQUENEvosAttacks
+dw PINECOEvosAttacks
+dw FORRETRESSEvosAttacks
+dw VENONATEvosAttacks
+dw VENOMOTHEvosAttacks
+dw SUNKERNEvosAttacks
+dw SUNFLORAEvosAttacks
+dw DIGLETTEvosAttacks
+dw DUGTRIOEvosAttacks
+dw MILTANKEvosAttacks
+dw MAREEPEvosAttacks
+dw FLAAFFYEvosAttacks
+dw AMPHAROSEvosAttacks
+dw HOPPIPEvosAttacks
+dw SKIPLOOMEvosAttacks
+dw JUMPLUFFEvosAttacks
+dw PIDGEYEvosAttacks
+dw PIDGEOTTOEvosAttacks
+dw PIDGEOTEvosAttacks
+dw MURKROWEvosAttacks
+dw HONCHKROWEvosAttacks
+dw REMORAIDEvosAttacks
+dw OCTILLARYEvosAttacks
+dw MAGIKARPEvosAttacks
+dw GYARADOSEvosAttacks
+dw CORPHISHEvosAttacks
+dw CRAWDAUNTEvosAttacks
+dw SWABLUEvosAttacks
+dw ALTARIAEvosAttacks
+dw HERACROSSEvosAttacks
+dw STANTLEREvosAttacks
+dw GROWLITHEEvosAttacks
+dw ARCANINEEvosAttacks
+dw DUCKLETTEvosAttacks
+dw SWANNAEvosAttacks
+dw EKANSEvosAttacks
+dw ARBOKEvosAttacks
+dw FARFETCHDEvosAttacks
+dw MIENFOOEvosAttacks
+dw MIENSHAOEvosAttacks
+dw MAKUHITAEvosAttacks
+dw HARIYAMAEvosAttacks
+dw SPIRITOMBEvosAttacks
+dw GASTLYEvosAttacks
+dw HAUNTEREvosAttacks
+dw GENGAREvosAttacks
+dw CHINGLINGEvosAttacks
+dw CHIMECHOEvosAttacks
+dw BALTOYEvosAttacks
+dw CLAYDOLEvosAttacks
+dw GOLETTEvosAttacks
+dw GOLURKEvosAttacks
+dw LITWICKEvosAttacks
+dw LAMPENTEvosAttacks
+dw CHANDELUREEvosAttacks
+dw SHUPPETEvosAttacks
+dw BANETTEEvosAttacks
+dw VULPIXEvosAttacks
+dw NINETALESEvosAttacks
+dw SABLEYEEvosAttacks
+dw ONIXEvosAttacks
+dw STEELIXEvosAttacks
+dw ARONEvosAttacks
+dw LAIRONEvosAttacks
+dw AGGRONEvosAttacks
+dw ROGGENROLAEvosAttacks
+dw BOLDOREEvosAttacks
+dw GIGALITHEvosAttacks
+dw NUMELEvosAttacks
+dw CAMERUPTEvosAttacks
+dw TORKOALEvosAttacks
+dw LARVESTAEvosAttacks
+dw VOLCARONAEvosAttacks
+dw SHROOMISHEvosAttacks
+dw BRELOOMEvosAttacks
+dw MAGBYEvosAttacks
+dw MAGMAREvosAttacks
+dw MAGMORTAREvosAttacks
+dw MEDITITEEvosAttacks
+dw MEDICHAMEvosAttacks
+dw KECLEONEvosAttacks
+dw MUNCHLAXEvosAttacks
+dw SNORLAXEvosAttacks
+dw CHINCHOUEvosAttacks
+dw LANTURNEvosAttacks
+dw CORSOLAEvosAttacks
+dw TENTACOOLEvosAttacks
+dw TENTACRUELEvosAttacks
+dw HORSEAEvosAttacks
+dw SEADRAEvosAttacks
+dw KINGDRAEvosAttacks
+dw MANTYKEEvosAttacks
+dw MANTINEEvosAttacks
+dw CLAMPERLEvosAttacks
+dw HUNTAILEvosAttacks
+dw GOREBYSSEvosAttacks
+dw WAILMEREvosAttacks
+dw WAILORDEvosAttacks
+dw RELICANTHEvosAttacks
+dw DRATINIEvosAttacks
+dw DRAGONAIREvosAttacks
+dw DRAGONITEEvosAttacks
+dw SUDOWOODOEvosAttacks
+dw LARVITAREvosAttacks
+dw PUPITAREvosAttacks
+dw TYRANITAREvosAttacks
+dw AXEWEvosAttacks
+dw FRAXUREEvosAttacks
+dw HAXORUSEvosAttacks
+dw SNUBBULLEvosAttacks
+dw GRANBULLEvosAttacks
+dw SHUCKLEEvosAttacks
+dw DWEBBLEEvosAttacks
+dw CRUSTLEEvosAttacks
+dw CLEFFAEvosAttacks
+dw CLEFAIRYEvosAttacks
+dw CLEFABLEEvosAttacks
+dw ELGYEMEvosAttacks
+dw BEEHEEYEMEvosAttacks
+dw SNOVEREvosAttacks
+dw ABOMASNOWEvosAttacks
+dw SNEASELEvosAttacks
+dw WEAVILEEvosAttacks
+dw SWINUBEvosAttacks
+dw PILOSWINEEvosAttacks
+dw MAMOSWINEEvosAttacks
+dw SNORUNTEvosAttacks
+dw GLAILEEvosAttacks
+dw FROSLASSEvosAttacks
+dw KABUTOEvosAttacks
+dw KABUTOPSEvosAttacks
+dw LILEEPEvosAttacks
+dw CRADILYEvosAttacks
+dw SHIELDONEvosAttacks
+dw BASTIODONEvosAttacks
+dw TIRTOUGAEvosAttacks
+dw CARRACOSTAEvosAttacks
+dw CRESSELIAEvosAttacks
+dw DARKRAIEvosAttacks
+dw CELEBIEvosAttacks
 	assert_table_length NUM_POKEMON

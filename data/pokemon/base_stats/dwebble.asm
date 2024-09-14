@@ -1,4 +1,4 @@
-	db CELEBI ; 016
+	db DWEBBLE ; 016
 
 	db  60,  85,  60,  125,  50,  50
 	;   hp  atk  def  spd  sat  sdf
