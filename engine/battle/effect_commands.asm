@@ -1139,7 +1139,7 @@ BattleCommand_Critical:
 .Item:
 	ld c, 0
 
-	cp CHANSEY
+	cp VENONAT
 	jr nz, .Farfetchd
 	ld a, [hl]
 	cp LUCKY_PUNCH
@@ -2713,8 +2713,8 @@ ThickClubBoost:
 ; it's holding a Thick Club, double it.
 	push bc
 	push de
-	ld b, CUBONE
-	ld c, MAROWAK
+	ld b, VENONAT
+	ld c, VENONAT
 	ld d, THICK_CLUB
 	call SpeciesItemBoost
 	pop de
@@ -2728,8 +2728,8 @@ LightBallBoost:
 ; holding a Light Ball, double it.
 	push bc
 	push de
-	ld b, PIKACHU
-	ld c, PIKACHU
+	ld b, VENONAT
+	ld c, VENONAT
 	ld d, LIGHT_BALL
 	call SpeciesItemBoost
 	pop de

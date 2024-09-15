@@ -36,7 +36,7 @@ DEF prob_total = 0
 OddEggs:
 	table_width NICKNAMED_MON_STRUCT_LENGTH, OddEggs
 
-	db PICHU
+	db CLEFFA
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 02048 ; OT ID
@@ -62,7 +62,7 @@ OddEggs:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 
-	db PICHU
+	db CLEFFA
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 00256 ; OT ID
@@ -140,7 +140,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db IGGLYBUFF
+	db CLEFFA
 	db NO_ITEM
 	db SING, CHARM, DIZZY_PUNCH, 0
 	dw 04096 ; OT ID
@@ -166,7 +166,7 @@ OddEggs:
 	bigdw 7 ; SDef
 	db "EGG@@@@@@@@"
 
-	db IGGLYBUFF
+	db CLEFFA
 	db NO_ITEM
 	db SING, CHARM, DIZZY_PUNCH, 0
 	dw 00768 ; OT ID
@@ -192,7 +192,7 @@ OddEggs:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db CLEFFA
 	db NO_ITEM
 	db POUND, LICK, DIZZY_PUNCH, 0
 	dw 03584 ; OT ID
@@ -218,7 +218,7 @@ OddEggs:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db CLEFFA
 	db NO_ITEM
 	db POUND, LICK, DIZZY_PUNCH, 0
 	dw 00512 ; OT ID

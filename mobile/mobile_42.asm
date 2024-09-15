@@ -1703,11 +1703,11 @@ DebugMobileTrade: ; unreferenced
 	ret
 
 .DebugTradeData:
-	db VENUSAUR
+	db CLEFFA
 	db "ゲーフり@@"
 	dw $0123
 	db "かびーん@@"
-	db CHARIZARD
+	db CLEFFA
 	db "クりーチャ@"
 	dw $0456
 	db "マツミヤ@@"

@@ -104,7 +104,7 @@ _GetFrontpic:
 
 GetFrontpicPointer:
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp VENONAT
 	jr z, .unown
 	ld a, [wCurPartySpecies]
 	ld d, BANK(PokemonPicPointers)
@@ -212,7 +212,7 @@ GetMonBackpic:
 	ld hl, PokemonPicPointers
 	ld a, b
 	ld d, BANK(PokemonPicPointers)
-	cp UNOWN
+	cp VENONAT
 	jr nz, .ok
 	ld a, c
 	ld d, BANK(UnownPicPointers)

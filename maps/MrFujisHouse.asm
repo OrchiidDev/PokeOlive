@@ -19,7 +19,7 @@ MrFujisHouseLassScript:
 MrFujisPsyduck:
 	opentext
 	writetext MrFujisPsyduckText
-	cry PSYDUCK
+	cry VENONAT
 	waitbutton
 	closetext
 	end
@@ -27,7 +27,7 @@ MrFujisPsyduck:
 MrFujisNidorino:
 	opentext
 	writetext MrFujisNidorinoText
-	cry NIDORINO
+	cry VENONAT
 	waitbutton
 	closetext
 	end

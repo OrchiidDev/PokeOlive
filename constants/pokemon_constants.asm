@@ -153,7 +153,7 @@
 	const MURKROW
 	const HONCHKROW
 	const REMORAID
-	const OCTILLARY
+	const OCTILLERY
 	const MAGIKARP
 	const GYARADOS
 	const CORPHISH

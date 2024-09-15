@@ -14,21 +14,21 @@ SECTION "Evolutions and Attacks", ROMX
 
 INCLUDE "data/pokemon/evos_attacks_pointers.asm"
 
-BulbasaurEvosAttacks:
-	db EVOLVE_LEVEL, 16, IVYSAUR
-	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 4, GROWL
-	db 7, LEECH_SEED
-	db 10, VINE_WHIP
-	db 15, POISONPOWDER
-	db 15, SLEEP_POWDER
-	db 20, RAZOR_LEAF
-	db 25, SWEET_SCENT
-	db 32, GROWTH
-	db 39, SYNTHESIS
-	db 46, SOLARBEAM
-	db 0 ; no more level-up moves
+;BulbasaurEvosAttacks:
+;	db EVOLVE_LEVEL, 16, IVYSAUR
+;	db 0 ; no more evolutions
+;	db 1, TACKLE
+;	db 4, GROWL
+;	db 7, LEECH_SEED
+;	db 10, VINE_WHIP
+;	db 15, POISONPOWDER
+;	db 15, SLEEP_POWDER
+;	db 20, RAZOR_LEAF
+;	db 25, SWEET_SCENT
+;	db 32, GROWTH
+;	db 39, SYNTHESIS
+;	db 46, SOLARBEAM
+;	db 0 ; no more level-up moves
 
 POLIWAGEvosAttacks:
 db EVOLVE_LEVEL, 16, POLIWHIRL
@@ -968,7 +968,7 @@ db 1, TACKLE
 db 4, GROWL
 db 0 ; no more level-up moves
 
-OCTILLARYEvosAttacks:
+OCTILLERYEvosAttacks:
 db EVOLVE_LEVEL, 16, POLIWHIRL
 db 0 ; no more evolutions
 db 1, TACKLE

@@ -447,21 +447,21 @@ ExplodingTrap22:
 
 VoltorbExplodingTrap:
 	special FadeOutToWhite
-	cry VOLTORB
+	cry VENONAT
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon VOLTORB, 23
+	loadwildmon VENONAT, 23
 	startbattle
 	end
 
 GeodudeExplodingTrap:
 	special FadeOutToWhite
-	cry GEODUDE
+	cry VENONAT
 	special FadeInFromWhite
 	setlasttalked -1
 	loadvar VAR_BATTLETYPE, BATTLETYPE_TRAP
-	loadwildmon GEODUDE, 21
+	loadwildmon VENONAT, 21
 	startbattle
 	end
 

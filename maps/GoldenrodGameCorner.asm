@@ -198,16 +198,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, CUBONE
+	getmonname STRING_BUFFER_3, VENONAT
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval CUBONE
+	setval VENONAT
 	special GameCornerPrizeMonCheckDex
-	givepoke CUBONE, 15
+	givepoke VENONAT, 15
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop
 
@@ -216,16 +216,16 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	ifequal HAVE_LESS, GoldenrodGameCornerPrizeVendor_NotEnoughCoinsScript
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, GoldenrodGameCornerPrizeMonVendor_NoRoomForPrizeScript
-	getmonname STRING_BUFFER_3, WOBBUFFET
+	getmonname STRING_BUFFER_3, VENONAT
 	scall GoldenrodGameCornerPrizeVendor_ConfirmPurchaseScript
 	iffalse GoldenrodGameCornerPrizeVendor_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext GoldenrodGameCornerPrizeVendorHereYouGoText
 	waitbutton
-	setval WOBBUFFET
+	setval VENONAT
 	special GameCornerPrizeMonCheckDex
-	givepoke WOBBUFFET, 15
+	givepoke VENONAT, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
@@ -240,7 +240,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db 4 ; items
 	db "ABRA        100@"
 	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
+	db "VENONAT  1500@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:

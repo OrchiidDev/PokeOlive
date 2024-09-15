@@ -393,7 +393,7 @@ Function17d1f1:
 	call SetSeenAndCaughtMon
 
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp CLEFFA
 	jr nz, .asm_17d223
 
 	ld hl, wPartyMon1DVs

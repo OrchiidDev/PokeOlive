@@ -106,10 +106,10 @@ ElmCheckEverstone:
 	iftrue ElmGiveEverstoneScript
 	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
 	iffalse ElmCheckTogepiEgg
-	setval TOGEPI
+	setval VENONAT
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
-	setval TOGETIC
+	setval VENONAT
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	writetext ElmThoughtEggHatchedText
@@ -118,10 +118,10 @@ ElmCheckEverstone:
 	end
 
 ElmEggHatchedScript:
-	setval TOGEPI
+	setval VENONAT
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
-	setval TOGETIC
+	setval VENONAT
 	special FindPartyMonThatSpeciesYourTrainerID
 	iftrue ShowElmTogepiScript
 	sjump ElmCheckGotEggAgain
@@ -161,8 +161,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic VENONAT
+	cry VENONAT
 	waitbutton
 	closepokepic
 	opentext
@@ -174,12 +174,12 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CYNDAQUIL
+	getmonname STRING_BUFFER_3, VENONAT
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CYNDAQUIL, 5, BERRY
+	givepoke VENONAT, 5, BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -191,8 +191,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic VENONAT
+	cry VENONAT
 	waitbutton
 	closepokepic
 	opentext
@@ -204,12 +204,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, TOTODILE
+	getmonname STRING_BUFFER_3, VENONAT
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke TOTODILE, 5, BERRY
+	givepoke VENONAT, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
@@ -219,8 +219,8 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic VENONAT
+	cry VENONAT
 	waitbutton
 	closepokepic
 	opentext
@@ -232,12 +232,12 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CHIKORITA
+	getmonname STRING_BUFFER_3, VENONAT
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CHIKORITA, 5, BERRY
+	givepoke VENONAT, 5, BERRY
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript

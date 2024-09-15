@@ -107,7 +107,7 @@ PokemonFanClubClefairyDollScript:
 PokemonFanClubBayleefScript:
 	opentext
 	writetext PokemonFanClubBayleefText
-	cry BAYLEEF
+	cry VENONAT
 	waitbutton
 	closetext
 	end

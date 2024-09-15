@@ -136,7 +136,7 @@ AlphabeticalPokedexOrder:
 	db MURKROW
 	db HONCHKROW
 	db REMORAID
-	db OCTILLARY
+	db OCTILLERY
 	db MAGIKARP
 	db GYARADOS
 	db CORPHISH
@@ -151,7 +151,7 @@ AlphabeticalPokedexOrder:
 	db SWANNA
 	db EKANS
 	db ARBOK
-	db FARFETCHD
+	db FARFETCH_D
 	db MIENFOO
 	db MIENSHAO
 	db MAKUHITA

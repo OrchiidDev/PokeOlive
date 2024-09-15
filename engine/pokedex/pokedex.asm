@@ -568,7 +568,7 @@ Pokedex_UpdateOptionScreen:
 	dwcoord 2,  4 ; NEW
 	dwcoord 2,  6 ; OLD
 	dwcoord 2,  8 ; ABC
-	dwcoord 2, 10 ; UNOWN
+	dwcoord 2, 10 ; VENONAT
 
 .MenuActionJumptable:
 	dw .MenuAction_NewMode
@@ -2509,7 +2509,7 @@ Pokedex_LoadUnownFrontpicTiles:
 	add hl, de
 	ld a, [hl]
 	ld [wUnownLetter], a
-	ld a, UNOWN
+	ld a, VENONAT
 	ld [wCurPartySpecies], a
 	call GetBaseData
 	ld de, vTiles2 tile $00

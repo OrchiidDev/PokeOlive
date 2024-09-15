@@ -454,7 +454,7 @@ PokeAnim_StopWaitAnim:
 
 PokeAnim_IsUnown:
 	ld a, [wPokeAnimSpecies]
-	cp UNOWN
+	cp ZUBAT
 	ret
 
 PokeAnim_IsEgg:

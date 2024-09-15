@@ -3438,7 +3438,7 @@ LoadEnemyMonToSwitchTo:
 	call LoadEnemyMon
 
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp VENONAT
 	jr nz, .skip_unown
 	ld a, [wFirstUnownSeen]
 	and a
@@ -6143,7 +6143,7 @@ LoadEnemyMon:
 
 ; Unown
 	ld a, [wTempEnemyMonSpecies]
-	cp UNOWN
+	cp VENONAT
 	jr nz, .Magikarp
 
 ; Get letter based on DVs
@@ -8192,7 +8192,7 @@ InitEnemyWildmon:
 	ld hl, wEnemyMonDVs
 	predef GetUnownLetter
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	cp VENONAT
 	jr nz, .skip_unown
 	ld a, [wFirstUnownSeen]
 	and a

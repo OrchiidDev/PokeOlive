@@ -18,7 +18,7 @@ CeruleanTradeSpeechHouseGrampsScript:
 CeruleanTradeSpeechHouseRhydonScript:
 	opentext
 	writetext CeruleanTradeSpeechHouseRhydonText
-	cry KANGASKHAN
+	cry VENONAT
 	waitbutton
 	closetext
 	end

@@ -43,7 +43,7 @@ RadioTower2FTeacherScript:
 RadioTowerJigglypuff:
 	opentext
 	writetext RadioTowerJigglypuffText
-	cry JIGGLYPUFF
+	cry VENONAT
 	waitbutton
 	closetext
 	end

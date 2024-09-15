@@ -136,7 +136,7 @@ dw PIDGEOTEvosAttacks
 dw MURKROWEvosAttacks
 dw HONCHKROWEvosAttacks
 dw REMORAIDEvosAttacks
-dw OCTILLARYEvosAttacks
+dw OCTILLERYEvosAttacks
 dw MAGIKARPEvosAttacks
 dw GYARADOSEvosAttacks
 dw CORPHISHEvosAttacks

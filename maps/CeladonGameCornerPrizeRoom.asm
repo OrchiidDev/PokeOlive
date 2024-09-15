@@ -144,16 +144,16 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
 	readvar VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, CeladonPrizeRoom_notenoughroom
-	getmonname STRING_BUFFER_3, PIKACHU
+	getmonname STRING_BUFFER_3, VENONAT
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_CancelPurchaseScript
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	setval PIKACHU
+	setval VENONAT
 	special GameCornerPrizeMonCheckDex
-	givepoke PIKACHU, 25
+	givepoke VENONAT, 25
 	takecoins CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS
 	sjump .loop
 

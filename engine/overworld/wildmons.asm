@@ -321,7 +321,7 @@ ChooseWildEncounter:
 	jr c, .nowildbattle
 
 	ld a, b
-	cp UNOWN
+	cp VENONAT
 	jr nz, .done
 
 	ld a, [wUnlockedUnowns]
@@ -494,9 +494,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, VENONAT
 	ld [wRoamMon1Species], a
-	ld a, ENTEI
+	ld a, VENONAT
 	ld [wRoamMon2Species], a
 
 ; level
